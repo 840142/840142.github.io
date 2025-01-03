@@ -10,18 +10,16 @@ body {
     font-family: "Libre Baskerville", serif; /* Změna písma na Libre Baskerville */
     background-color: rgb(255, 255, 204); /* Světle žluté pozadí pomocí RGB */
     line-height: 1.8; /* Zvýšení mezery mezi řádky textu */
-    padding: 20px; /* Přidání vnitřního odsazení */
 }
 
 /* Styly pro odstavce a nadpisy */
 p {
-    margin-bottom: 25px; /* Větší mezera mezi odstavci */
+    margin-bottom: 15px; /* Nastavení mezer mezi odstavci */
     line-height: 1.8; /* Nastavení mezery mezi řádky odstavců */
 }
 
 h1, h2 {
-    margin-top: 20px;
-    margin-bottom: 25px; /* Větší mezera pod nadpisy */
+    margin-bottom: 20px; /* Mezera pod nadpisy */
     line-height: 1.4; /* Zmenšení řádkování pro nadpisy */
 }
 
@@ -35,8 +33,8 @@ h1, h2 {
 /* Media query pro mobilní zařízení */
 @media screen and (max-width: 768px) {
     .content {
-        width: 100%; /* Zvětšení šířky na mobilních zařízeních */
-        margin: 0px auto; /* Menší okraje na mobilech */
-        padding: 10px; /* Menší vnitřní mezera na mobilech */
+        width: 100%; /* Využití celého prostoru na mobilních zařízeních */
+        margin: 0 auto; /* Menší okraje na mobilních zařízeních */
+        padding: 10px; /* Menší vnitřní mezera */
     }
 }
