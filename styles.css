@@ -35,7 +35,7 @@ h1, h2 {
 /* Media query pro mobilní zařízení */
 @media screen and (max-width: 768px) {
     .content {
-        width: 90%; /* Zvětšení šířky na mobilních zařízeních */
+        width: 95%; /* Zvětšení šířky na mobilních zařízeních */
         margin: 10px auto; /* Menší okraje na mobilech */
         padding: 15px; /* Menší vnitřní mezera na mobilech */
     }
