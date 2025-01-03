@@ -20,6 +20,10 @@ header {
     padding: 20px 0;
 }
 
+header h1 {
+    margin: 0; /* Zrušení výchozího okraje nadpisu */
+}
+
 /* Vzhled navigace */
 header nav ul {
     list-style-type: none;
