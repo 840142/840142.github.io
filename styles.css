@@ -1,1 +1,22 @@
-
+<style>
+        body {
+            font-family: "Libre Baskerville", serif; /* Změna písma na Libre Baskerville */
+            margin: 0;
+            padding: 0;
+            background-color: rgb(255, 255, 204); /* Světle žluté pozadí pomocí RGB */
+        }
+        .content {
+            width: 80%;
+            max-width: 800px;
+            margin: 20px auto; /* Automatické zarovnání na střed s mezerou */
+        }
+        
+        /* Media query pro mobilní zařízení */
+        @media screen and (max-width: 768px) {
+            .content {
+                width: 90%; /* Zvětšení šířky na mobilních zařízeních */
+                margin: 10px auto; /* Menší okraje na mobilech */
+                padding: 15px; /* Menší vnitřní mezera na mobilech */
+            }
+        }
+    </style>
