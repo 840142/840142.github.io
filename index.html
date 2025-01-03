@@ -6,42 +6,33 @@
     <title>Dřistula</title>
     <style>
         body {
-            margin: 20;
+            font-family: Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center; /* Centrování obsahu */
+            align-items: center;
+            height: 100vh;
+        }
+        .content {
+            width: 60%; /* Nastavení šířky na 60% pro centrální text */
+            line-height: 1.5;
+            text-align: justify; /* Text bude na stránce rozložený rovnoměrně */
+            max-width: 800px;
+        }
+        p {
+            word-wrap: break-word; /* Pokud text překročí šířku bloku, přejde na nový řádek */
         }
     </style>
-    <link rel="stylesheet" href="styles.css"> <!-- Odkaz na externí CSS -->
 </head>
 <body>
 
-    <!-- Úvodní obsah -->
-    <div>
-	<h2>Magazín</h1>
-        <h1>Dřistula</h1>
-        <h2>Autor: Tomáš Plešivčiak</h2>
-	<h2>Cena: 59 Kč</h2>
-    </div>
-
-    <!-- Články -->
-    <div>
-        <div>
-            <h3>Sídliště Paderewskiego</h3>
-            <p>Publikováno: 1. ledna 2025</p>
-            <p>Představte si, že jste na sídlišti, stojíte před takovým velkým mohutným a širokým bytovým domem, který se modulárně pne od jedné klidnější silnice k druhé, té více frekventovanější. Díváte se před sebe a v každém z vchodů se nachází obchod nebo služba. Tak přesně tady se nacházíme. Je tady kadeřník, masážní salon, prodejna auto-moto, stomatolog, pekárna, večerka, obchod se zeleninou... To je neuvěřitelný!
-</p>
-        </div>
-
-        <div>
-            <h3>Článek 2</h3>
-            <p>Publikováno: 2. ledna 2025</p>
-            <p>Úvodní text článku 2...</p>
-        </div>
-    </div>
-
-    <!-- Kontakt -->
-    <div>
-        <h2>Kontakt</h2>
-        <p>Pokud máte otázky, kontaktujte nás na emailu: info@magazin.cz</p>
-    </div>
+<div class="content">
+    <p>
+        Toto je ukázkový text. Tento text je zarovnán na střed obrazovky a bude rozdělen do několika řádků tak, že na každém řádku bude maximálně sedm slov. To je podobné tomu, jak to může vypadat na webových stránkách typu magazínu Esquire, kde text bývá uprostřed obrazovky a má kontrolovanou šířku.
+    </p>
+</div>
 
 </body>
 </html>
