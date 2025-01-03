@@ -7,9 +7,9 @@
 
 /* Nastavení základního vzhledu stránky */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Libre Baskerville", serif; /* Písmo z Google Fonts */
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: rgb(255, 255, 204); /* Světle žluté pozadí */
 }
 
 /* Vzhled hlavičky */
@@ -18,6 +18,10 @@ header {
     color: white;
     text-align: center;
     padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
 }
 
 /* Vzhled navigace */
@@ -41,16 +45,21 @@ header nav ul li a:hover {
 }
 
 /* Styly pro sekce */
-section {
-    padding: 20px;
-    margin: 10px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.content {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto; /* Zarovnání na střed s mezerami */
 }
 
-section h2 {
+h2 {
     color: #333;
+}
+
+.article-image {
+    max-width: 100%; /* Obrázek se přizpůsobí šířce rodičovského elementu */
+    height: auto;
+    display: block;
+    margin: 20px 0;
 }
 
 /* Patička */
@@ -63,3 +72,17 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+/* Media query pro mobilní zařízení */
+@media screen and (max-width: 768px) {
+    .content {
+        width: 90%; /* Zvětšení šířky na mobilních zařízeních */
+        margin: 10px auto; /* Menší okraje na mobilech */
+        padding: 15px; /* Menší vnitřní mezera na mobilech */
+    }
+
+    footer {
+        font-size: 0.8em; /* Menší písmo v patičce na mobilech */
+    }
+}
+
