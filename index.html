@@ -20,18 +20,41 @@
             line-height: 1.5;
             text-align: justify; /* Text bude na stránce rozložený rovnoměrně */
             max-width: 800px;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Stín pro lepší vzhled */
+        }
+        h1 {
+            text-align: center; /* Titulek na střed */
+            margin-bottom: 20px; /* Mezera pod nadpisem */
+        }
+        .article-meta {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 20px; /* Mezera mezi metainformacemi a textem */
         }
         p {
-            word-wrap: break-word; /* Pokud text překročí šířku bloku, přejde na nový řádek */
+            word-wrap: break-word; /* Pokud text přesáhne šířku bloku, přejde na nový řádek */
         }
     </style>
 </head>
 <body>
 
 <div class="content">
+    <!-- Název článku -->
+    <h1>Název článku</h1>
+
+    <!-- Metainformace o článku -->
+    <p class="article-meta">Autor: Tomáš Plešivčiak</p>
+    <p class="article-meta">Cena: 59 Kč</p>
+    <p class="article-meta">Sídliště Paderewskiego</p>
+    <p class="article-meta">Publikováno: 1. ledna 2025</p>
+
+    <!-- Text článku -->
     <p>
-        Toto je ukázkový text. Tento text je zarovnán na střed obrazovky a bude rozdělen do několika řádků tak, že na každém řádku bude maximálně sedm slov. To je podobné tomu, jak to může vypadat na webových stránkách typu magazínu Esquire, kde text bývá uprostřed obrazovky a má kontrolovanou šířku.
+        Představte si, že jste na sídlišti, stojíte před takovým velkým mohutným a širokým bytovým domem, který se modulárně pne od jedné klidnější silnice k druhé, té více frekventovanější. Díváte se před sebe a v každém z vchodů se nachází obchod nebo služba. Tak přesně tady se nacházíme. Je tady kadeřník, masážní salon, prodejna auto-moto, stomatolog, pekárna, večerka, obchod se zeleninou... To je neuvěřitelný!
     </p>
+
 </div>
 
 </body>
