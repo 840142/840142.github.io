@@ -9,6 +9,17 @@
 body {
     font-family: "Libre Baskerville", serif; /* Změna písma na Libre Baskerville */
     background-color: rgb(255, 255, 204); /* Světle žluté pozadí pomocí RGB */
+    line-height: 1.6; /* Nastavení řádkování pro lepší čitelnost */
+}
+
+/* Styly pro odstavce a nadpisy */
+p {
+    margin-bottom: 15px; /* Nastavení mezer mezi odstavci */
+}
+
+h1, h2 {
+    margin-bottom: 20px; /* Mezera pod nadpisy */
+    line-height: 1.2; /* Zmenšení řádkování pro nadpisy */
 }
 
 /* Styly pro obsah */
