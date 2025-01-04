@@ -27,26 +27,35 @@ h1, h2 {
 
 /* Styly pro nadpis h1 (název webu) */
 h1 {
-    font-size: 3em; /* Zvýšení velikosti písma pro název webu */
+    font-size: 5em; /* Zvětšení velikosti písma pro název webu */
     position: fixed; /* Plovoucí pozice nadpisu */
+    top: 10px; /* Odsazení od horního okraje */
+    left: 10px; /* Odsazení od levého okraje */
+    z-index: 1000; /* Zajištění, že zůstane nad ostatním obsahem */
+    background-color: rgba(255, 255, 204, 0.9); /* Poloprůhledné pozadí pro lepší viditelnost nadpisu */
+    padding: 10px; /* Přidání vnitřního okraje kolem textu */
 }
 
 /* Styly pro obsah */
 .content {
     width: 80%;
     max-width: 800px;
-    margin: 20px auto; /* Automatické zarovnání na střed s mezerou nahoře i dole */
+    margin: 120px auto; /* Automatické zarovnání na střed s mezerou nahoře i dole */
     padding: 0 15px;
 }
 
 /* Media query pro mobilní zařízení */
 @media screen and (max-width: 768px) {
     .content {
-        width: 100%; /* Využití celé šířky obrazovky na mobilu */
-        margin-left: 0; /* Odstranění levého vnějšího okraje */
-        margin-right: 20px; /* Zachování pravého okraje */
-        padding-left: 5px; /* Minimální odsazení zleva */
-        padding-right: 10px; /* Mírné odsazení zprava pro lepší vzhled */
-        margin-top: 20px; /* Přidání mezery nahoře mezi obsahem a horní hranou displeje */
+        width: 90%;
+        margin: 150px auto 20px auto; /* Zvýšení horního odsazení na mobilních zařízeních */
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    h1 {
+        font-size: 4em; /* Zvětšení písma pro nadpis na mobilních zařízeních */
+        left: 5px; /* Lehce menší odsazení na mobilu */
+        top: 5px; /* Menší horní odsazení na mobilních zařízeních */
     }
 }
