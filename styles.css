@@ -39,8 +39,8 @@ h1, h2 {
 h1 {
     font-size: 10em; /* Zvětšení velikosti písma pro název webu */
     position: fixed; /* Plovoucí pozice nadpisu */
-    top: 10px; /* Odsazení od horního okraje */
-    left: 10px; /* Odsazení od levého okraje */
+    top: 120px; /* Odsazení od horního okraje */
+    left: 0px; /* Odsazení od levého okraje */
     z-index: 1000; /* Zajištění, že zůstane nad ostatním obsahem */
 }
 
