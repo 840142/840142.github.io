@@ -14,6 +14,16 @@ body {
     padding: 0;
 }
 
+/* Styly pro odkazy */
+a {
+    color: black; /* Změna barvy odkazu na černou */
+    text-decoration: none; /* Odstranění podtržení */
+}
+
+a:hover {
+    text-decoration: underline; /* Podtržení při najetí myší */
+}
+
 /* Styly pro odstavce a nadpisy */
 p {
     margin-bottom: 15px;
