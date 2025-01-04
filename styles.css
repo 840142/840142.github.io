@@ -38,13 +38,15 @@ h1, h2 {
 /* Styly pro nadpis h1 (název webu) */
 h1 {
     font-size: 10em; /* Zvětšení velikosti písma pro název webu */
+    text-align: left; /* Zarovnání vlevo */
+    margin: 10px 0; /* Menší odsazení shora a zdola */
 }
 
 /* Styly pro obsah */
 .content {
     width: 80%;
     max-width: 800px;
-    margin: 120px auto; /* Automatické zarovnání na střed s mezerou nahoře i dole */
+    margin: 20px auto; /* Automatické zarovnání na střed s mezerou nahoře i dole */
     padding: 0 15px;
 }
 
