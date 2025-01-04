@@ -25,6 +25,17 @@ h1, h2 {
     line-height: 1.4;
 }
 
+/* Styly pro nadpis h1 (název webu) */
+h1 {
+    font-size: 3em; /* Zvýšení velikosti písma pro název webu */
+    position: fixed; /* Plovoucí pozice nadpisu */
+    top: 10px; /* Odsazení od horního okraje */
+    left: 10px; /* Odsazení od levého okraje */
+    z-index: 1000; /* Zajištění, že zůstane nad ostatním obsahem */
+    background-color: rgba(255, 255, 204, 0.9); /* Poloprůhledné pozadí pro lepší viditelnost nadpisu */
+    padding: 10px; /* Přidání vnitřního okraje kolem textu */
+}
+
 /* Styly pro obsah */
 .content {
     width: 80%;
