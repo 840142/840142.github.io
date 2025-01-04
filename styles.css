@@ -53,8 +53,9 @@ h1 {
 /* Media query pro mobilní zařízení */
 @media screen and (max-width: 768px) {
     .content {
-        width: 95%;
-        margin: 150px auto 20px auto; /* Menší mezera od horního okraje na mobilech */
+         width: 100%; /* Větší šířka na mobilních zařízeních */
+        margin: 0; /* Žádné mezery okolo obsahu */
+        padding: 0 5px; /* Menší vnitřní mezery na mobilních zařízeních */
     }
 
     h1 {
