@@ -29,8 +29,8 @@ h1, h2 {
 .content {
     width: 80%;
     max-width: 800px;
-    margin: 20px auto;
-    padding: 0 15px; /* Přidání malého vnitřního odsazení pro lepší čitelnost */
+    margin: 20px auto; /* Automatické zarovnání na střed s mezerou nahoře i dole */
+    padding: 0 15px;
 }
 
 /* Media query pro mobilní zařízení */
@@ -41,5 +41,6 @@ h1, h2 {
         margin-right: 20px; /* Zachování pravého okraje */
         padding-left: 5px; /* Minimální odsazení zleva */
         padding-right: 10px; /* Mírné odsazení zprava pro lepší vzhled */
+        margin-top: 20px; /* Přidání mezery nahoře mezi obsahem a horní hranou displeje */
     }
 }
