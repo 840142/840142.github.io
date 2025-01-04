@@ -37,13 +37,11 @@ h1, h2 {
 
 /* Styly pro nadpis h1 (název webu) */
 h1 {
-    font-size: 50em; /* Zvětšení velikosti písma pro název webu */
+    font-size: 10em; /* Zvětšení velikosti písma pro název webu */
     position: fixed; /* Plovoucí pozice nadpisu */
     top: 10px; /* Odsazení od horního okraje */
     left: 10px; /* Odsazení od levého okraje */
     z-index: 1000; /* Zajištění, že zůstane nad ostatním obsahem */
-    background-color: rgba(255, 255, 204, 0.9); /* Poloprůhledné pozadí pro lepší viditelnost nadpisu */
-    padding: 10px; /* Přidání vnitřního okraje kolem textu */
 }
 
 /* Styly pro obsah */
@@ -58,14 +56,15 @@ h1 {
 @media screen and (max-width: 768px) {
     .content {
         width: 90%;
-        margin: 150px auto 20px auto; /* Zvýšení horního odsazení na mobilních zařízeních */
+        margin: 150px auto 20px auto; /* Menší mezera od horního okraje na mobilech */
         padding-left: 10px;
         padding-right: 10px;
     }
 
     h1 {
-        font-size: 40em; /* Zvětšení písma pro nadpis na mobilních zařízeních */
-        left: 5px; /* Lehce menší odsazení na mobilu */
-        top: 5px; /* Menší horní odsazení na mobilních zařízeních */
+        font-size: 2.5em; /* Menší velikost nápisu na mobilech */
+        left: 5px; /* Posunutí k levému okraji na mobilech */
+        top: 5px;  /* Posunutí od horního okraje na mobilech */
+        padding: 8px; /* Menší vnitřní odsazení pro nápis na mobilech */
     }
 }
