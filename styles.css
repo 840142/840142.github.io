@@ -7,34 +7,37 @@
 
 /* Nastavení základního vzhledu stránky */
 body {
-    font-family: "Libre Baskerville", serif; /* Změna písma na Libre Baskerville */
-    background-color: rgb(255, 255, 204); /* Světle žluté pozadí pomocí RGB */
-    line-height: 1.8; /* Zvýšení mezery mezi řádky textu */
+    font-family: "Libre Baskerville", serif;
+    background-color: rgb(255, 255, 204);
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
 }
 
 /* Styly pro odstavce a nadpisy */
 p {
-    margin-bottom: 15px; /* Nastavení mezer mezi odstavci */
-    line-height: 1.8; /* Nastavení mezery mezi řádky odstavců */
+    margin-bottom: 15px;
+    line-height: 1.8;
 }
 
 h1, h2 {
-    margin-bottom: 20px; /* Mezera pod nadpisy */
-    line-height: 1.4; /* Zmenšení řádkování pro nadpisy */
+    margin-bottom: 20px;
+    line-height: 1.4;
 }
 
 /* Styly pro obsah */
 .content {
     width: 80%;
     max-width: 800px;
-    margin: 20px auto; /* Automatické zarovnání na střed s mezerou */
+    margin: 20px auto;
+    padding: 0 15px; /* Přidání malého vnitřního odsazení pro lepší čitelnost */
 }
 
 /* Media query pro mobilní zařízení */
 @media screen and (max-width: 768px) {
     .content {
-        width: 100%; /* Využití celého prostoru na mobilních zařízeních */
-        margin: 0 auto; /* Menší okraje na mobilních zařízeních */
-        padding: 10px; /* Menší vnitřní mezera */
+        width: 100%; /* Využití celé šířky obrazovky na mobilu */
+        margin: 0; /* Odstranění vnějšího okraje */
+        padding: 0 10px; /* Minimální odsazení od okraje displeje */
     }
 }
