@@ -37,7 +37,9 @@ h1, h2 {
 @media screen and (max-width: 768px) {
     .content {
         width: 100%; /* Využití celé šířky obrazovky na mobilu */
-        margin: 0; /* Odstranění vnějšího okraje */
-        padding: 0 10px; /* Minimální odsazení od okraje displeje */
+        margin-left: 0; /* Odstranění levého vnějšího okraje */
+        margin-right: 20px; /* Zachování pravého okraje */
+        padding-left: 5px; /* Minimální odsazení zleva */
+        padding-right: 10px; /* Mírné odsazení zprava pro lepší vzhled */
     }
 }
