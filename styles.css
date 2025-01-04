@@ -38,10 +38,6 @@ h1, h2 {
 /* Styly pro nadpis h1 (název webu) */
 h1 {
     font-size: 10em; /* Zvětšení velikosti písma pro název webu */
-    position: fixed; /* Plovoucí pozice nadpisu */
-    top: 120px; /* Odsazení od horního okraje */
-    left: 0px; /* Odsazení od levého okraje */
-    z-index: 1000; /* Zajištění, že zůstane nad ostatním obsahem */
 }
 
 /* Styly pro obsah */
@@ -61,8 +57,5 @@ h1 {
 
     h1 {
         font-size: 5em; /* Menší velikost nápisu na mobilech */
-        left: 5px; /* Posunutí k levému okraji na mobilech */
-        top: 5px;  /* Posunutí od horního okraje na mobilech */
-        padding: 8px; /* Menší vnitřní odsazení pro nápis na mobilech */
     }
 }
