@@ -55,8 +55,7 @@ h1 {
     .content {
         width: 100%; /* Větší šířka na mobilních zařízeních */
         margin: 0; /* Žádné mezery okolo obsahu */
-        padding-left: 5px; /* Menší vnitřní mezery na mobilních zařízeních */
-        padding-right: 5px
+        padding: 0 10px; /* Menší vnitřní mezery na mobilních zařízeních */
     }
 
     h1 {
