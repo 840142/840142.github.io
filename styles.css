@@ -59,5 +59,6 @@ h1 {
 
     h1 {
         font-size: 5em; /* Menší velikost nápisu na mobilech */
+        margin-top: 5px; /* Menší odsazení shora na mobilu */
     }
 }
