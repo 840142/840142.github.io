@@ -29,7 +29,6 @@ p {
     margin-bottom: 15px;
     line-height: 1.8;
     hyphens: auto; /* Povolení dělení slov podle potřeby */
-    word-wrap: break-word; /* Dovolí, aby dlouhá slova byla rozdělena */
     text-align-last: left; /* Poslední řádek zarovnaný k levé straně */
 }
 
