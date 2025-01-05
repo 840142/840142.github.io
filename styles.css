@@ -60,14 +60,12 @@ h2 {
     .content {
         width: 100%; /* Větší šířka na mobilních zařízeních */
         margin: 0; /* Žádné mezery okolo obsahu */
-        padding: 0 20px; /* Menší vnitřní mezery na mobilních zařízeních */
+        padding: 0 10px; /* Menší vnitřní mezery na mobilních zařízeních */
+        font-size: 0.875em; /* Zmenšení velikosti písma na 14px, pokud základní velikost je 16px */
     }
 
     h1 {
         font-size: 5em; /* Menší velikost nápisu na mobilech */
         margin: 5px; /* Menší odsazení shora na mobilu */
-    }
-    body {
-        font-size: 0.875em; /* Zmenšení velikosti písma na 14px, pokud základní velikost je 16px */
     }
 }
