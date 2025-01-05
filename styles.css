@@ -67,4 +67,7 @@ h2 {
         font-size: 5em; /* Menší velikost nápisu na mobilech */
         margin: 5px; /* Menší odsazení shora na mobilu */
     }
+    body {
+        font-size: 0.875em; /* Zmenšení velikosti písma na 14px, pokud základní velikost je 16px */
+    }
 }
