@@ -63,13 +63,13 @@ h2 {
     .content {
         width: 100%; /* Větší šířka na mobilních zařízeních */
         margin: 0; /* Žádné mezery okolo obsahu */
-        padding: 0 10px; /* Menší vnitřní mezery na mobilních zařízeních */
+        padding: 0 15px; /* Menší vnitřní mezery na mobilních zařízeních */
         font-size: 0.875em; /* Zmenšení velikosti písma na 14px, pokud základní velikost je 16px */
     }
 
     h1 {
         font-size: 5em; /* Menší velikost nápisu na mobilech */
-        margin-top: 50px; /* Zvýšení mezery nad nadpisem pro mobilní zařízení */
+        margin-top: 30px; /* Zvýšení mezery nad nadpisem pro mobilní zařízení */
         margin-bottom: 30px; /* Zvýšení mezery pod nadpisem pro mobilní zařízení */
     }
 }
