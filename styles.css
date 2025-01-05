@@ -28,6 +28,9 @@ a:hover {
 p {
     margin-bottom: 15px;
     line-height: 1.8;
+    text-align: justify; /* Zarovná text na obě strany */
+    hyphens: auto; /* Povolení dělení slov podle potřeby */
+    word-wrap: break-word; /* Dovolí, aby dlouhá slova byla rozdělena */
 }
 
 h1, h2 {
@@ -66,6 +69,7 @@ h2 {
 
     h1 {
         font-size: 5em; /* Menší velikost nápisu na mobilech */
-        margin: 5px; /* Menší odsazení shora na mobilu */
+        margin-top: 50px; /* Zvýšení mezery nad nadpisem pro mobilní zařízení */
+        margin-bottom: 30px; /* Zvýšení mezery pod nadpisem pro mobilní zařízení */
     }
 }
