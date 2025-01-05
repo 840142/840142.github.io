@@ -44,7 +44,7 @@ h1 {
 
 /* Styly pro nadpis h2 (název článku) */
 h2 {
-    font-weight: bold; /* Tučné písmo */
+    font-weight: 700; /* Tučné písmo */
 }
 
 /* Styly pro obsah */
