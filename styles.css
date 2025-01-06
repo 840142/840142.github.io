@@ -18,9 +18,9 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 sloupce na větších obrazovkách */
     gap: 15px;
-    padding: 20px;
+    padding: 0px;
     max-width: 1200px;
-    margin: 15 auto; /* zarovnání galerie na střed */
+    margin: 0 auto; /* zarovnání galerie na střed */
 }
 
 .gallery img {
