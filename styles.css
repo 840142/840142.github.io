@@ -59,12 +59,6 @@ h1 {
     margin: 10px 0; /* Menší odsazení shora a zdola */
 }
 
-/* Styly pro nadpis h2 (název článku) */
-h2 {
-    margin-top: 50px; /* Vytvoří větší mezeru nad každým nadpisem článku */
-    font-weight: bold; /* Tučné písmo */
-}
-
 /* Styly pro obsah */
 .content {
     width: 80%;
