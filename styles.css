@@ -61,6 +61,7 @@ h1 {
 
 /* Styly pro nadpis h2 (název článku) */
 h2 {
+    margin-top: 50px; /* Vytvoří větší mezeru nad každým nadpisem článku */
     font-weight: bold; /* Tučné písmo */
 }
 
