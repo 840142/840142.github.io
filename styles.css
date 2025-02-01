@@ -14,11 +14,9 @@ body {
     padding: 0;
 }
 
-<style>
-  section.article {
+.content section {
     margin-bottom: 60px; /* Větší mezera mezi články */
-  }
-</style>
+}
 
 .gallery {
     display: grid;
