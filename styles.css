@@ -14,6 +14,12 @@ body {
     padding: 0;
 }
 
+<style>
+  section.article {
+    margin-bottom: 60px; /* Větší mezera mezi články */
+  }
+</style>
+
 .gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 sloupce na větších obrazovkách */
