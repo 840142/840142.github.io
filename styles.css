@@ -1,96 +1,97 @@
-/* Resetování základního vzhledu */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Nastavení základního vzhledu stránky */
-body {
-    font-family: "Libre Baskerville", serif;
-    background-color: rgb(255, 255, 204);
-    line-height: 1.8;
-    margin: 0;
-    padding: 0;
-}
-
 <style>
-  section.article {
-    margin-bottom: 60px; /* Větší mezera mezi články */
-  }
+        /* Resetování základního vzhledu */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Nastavení základního vzhledu stránky */
+        body {
+            font-family: "Libre Baskerville", serif;
+            background-color: rgb(255, 255, 204);
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Styly pro nadpisy a odstavce */
+        h1, h2 {
+            margin-bottom: 20px;
+            line-height: 1.4;
+        }
+
+        h1 {
+            font-size: 10em;
+            text-align: left;
+            margin: 10px 0;
+        }
+
+        p {
+            margin-bottom: 15px;
+            line-height: 1.8;
+            hyphens: auto;
+        }
+
+        /* Styly pro jednotlivé články (sekce) */
+        section.article {
+            margin-bottom: 60px; /* Větší mezera mezi články */
+        }
+
+        /* Styly pro galerii */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 sloupce na větších obrazovkách */
+            gap: 15px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            align-items: center;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Styly pro odkazy */
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Obsah stránky */
+        .content {
+            width: 80%;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 15px;
+        }
+
+        /* Media query pro mobilní zařízení */
+        @media screen and (max-width: 768px) {
+            .content {
+                width: 100%;
+                margin: 0;
+                padding: 0 15px;
+                font-size: 0.875em;
+            }
+
+            /* Nastavení pro velmi malé obrazovky (mobily) */
+            h1 {
+                font-size: 5em;
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .gallery {
+                grid-template-columns: 1fr; /* 1 sloupec na mobilu */
+            }
+        }
 </style>
-
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 sloupce na větších obrazovkách */
-    gap: 15px;
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto; /* zarovnání galerie na střed */
-    align-items: center
-}
-
-.gallery img {
-    width: 100%;
-    height: auto;
-}
-
-/* Styly pro odkazy */
-a {
-    color: black; /* Změna barvy odkazu na černou */
-    text-decoration: none; /* Odstranění podtržení */
-}
-
-a:hover {
-    text-decoration: underline; /* Podtržení při najetí myší */
-}
-
-/* Styly pro odstavce a nadpisy */
-p {
-    margin-bottom: 15px;
-    line-height: 1.8;
-    hyphens: auto; /* Povolení dělení slov podle potřeby */
-    text-align-last: left; /* Poslední řádek zarovnaný k levé straně */
-}
-
-h1, h2 {
-    margin-bottom: 20px;
-    line-height: 1.4;
-}
-
-/* Styly pro nadpis h1 (název webu) */
-h1 {
-    font-size: 10em; /* Zvětšení velikosti písma pro název webu */
-    text-align: left; /* Zarovnání vlevo */
-    margin: 10px 0; /* Menší odsazení shora a zdola */
-}
-
-/* Styly pro obsah */
-.content {
-    width: 80%;
-    max-width: 800px;
-    margin: 20px auto; /* Automatické zarovnání na střed s mezerou nahoře i dole */
-    padding: 0 15px;
-}
-
-/* Media query pro mobilní zařízení */
-@media screen and (max-width: 768px) {
-    .content {
-        width: 100%; /* Větší šířka na mobilních zařízeních */
-        margin: 0; /* Žádné mezery okolo obsahu */
-        padding: 0 15px; /* Menší vnitřní mezery na mobilních zařízeních */
-        font-size: 0.875em; /* Zmenšení velikosti písma na 14px, pokud základní velikost je 16px */
-    }
-
-    /* Nastavení pro velmi malé obrazovky (mobily) */
-@media (max-width: 480px) {
-    .gallery {
-        grid-template-columns: 1fr; /* 1 sloupec na mobilu */
-    }
-
-    h1 {
-        font-size: 5em; /* Menší velikost nápisu na mobilech */
-        margin-top: 30px; /* Zvýšení mezery nad nadpisem pro mobilní zařízení */
-        margin-bottom: 30px; /* Zvýšení mezery pod nadpisem pro mobilní zařízení */
-    }
-}
