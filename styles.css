@@ -41,6 +41,10 @@ h1, h2 {
     line-height: 1.4;
 }
 
+.date {
+    font-size: 2em; /* Menší velikost pro datum */
+}
+
 /* Styly pro nadpis h1 (název webu) */
 h1 {
     font-size: 10em; /* Zvětšení velikosti písma pro název webu */
