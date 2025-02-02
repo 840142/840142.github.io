@@ -71,7 +71,7 @@ h1 {
 
     h1 {
         font-size: 5em; /* Menší velikost nápisu na mobilech */
-        margin-top: 30px; /* Zvýšení mezery nad nadpisem pro mobilní zařízení */
-        margin-bottom: 30px; /* Zvýšení mezery pod nadpisem pro mobilní zařízení */
+        margin-top: 25px; /* Zvýšení mezery nad nadpisem pro mobilní zařízení */
+        margin-bottom: 25px; /* Zvýšení mezery pod nadpisem pro mobilní zařízení */
     }
 }
