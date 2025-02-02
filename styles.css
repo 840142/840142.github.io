@@ -15,7 +15,7 @@ body {
 }
 
 /* Alternativně, pokud chcete přidat mezery mezi celými sekcemi */
-section.content {
+section.article {
     margin-bottom: 90px; /* Větší mezera mezi koncem jednoho článku a začátkem dalšího */
 }
 
