@@ -14,8 +14,9 @@ body {
     padding: 0;
 }
 
-.content section {
-    margin-bottom: 60px; /* Větší mezera mezi články */
+/* Alternativně, pokud chcete přidat mezery mezi celými sekcemi */
+section.content {
+    margin-bottom: 90px; /* Větší mezera mezi koncem jednoho článku a začátkem dalšího */
 }
 
 /* Styly pro odkazy */
