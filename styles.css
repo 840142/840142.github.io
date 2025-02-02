@@ -41,13 +41,8 @@ h1, h2 {
     line-height: 1.4;
 }
 
-h2 {
-    font-size: 1.5em; /* Obvykle přibližně 24px */
-    font-weight: bold;
-}
-
 .date {
-    font-size: 0,1em; /* Menší velikost pro datum */
+    font-size: 2px; /* Menší velikost pro datum */
 }
 
 /* Styly pro nadpis h1 (název webu) */
