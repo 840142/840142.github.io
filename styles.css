@@ -61,6 +61,17 @@ h1 {
     padding: 0 15px;
 }
 
+.container {
+    max-width: 800px;  /* Maximální šířka pro text a obsah */
+    margin: 0 auto;    /* Zarovnání kontejneru na střed */
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;   /* Obrázek bude zabírat maximálně 100 % šířky svého rodiče */
+    height: auto;      /* Zachování poměru stran obrázku */
+}
+
 /* Media query pro mobilní zařízení */
 @media screen and (max-width: 768px) {
     .content {
