@@ -15,8 +15,8 @@ body {
 }
 
 .logo {
-    margin-top: 20px; /* Přidá mezeru kolem loga */
-    margin-bottom: 20px; /* Přidá mezeru kolem loga */
+    margin-top: 40px; /* Přidá mezeru kolem loga */
+    margin-bottom: 40px; /* Přidá mezeru kolem loga */
 }
 
 /* Alternativně, pokud chcete přidat mezery mezi celými sekcemi */
