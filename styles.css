@@ -93,4 +93,9 @@ img {
         margin-top: 25px; /* Zvýšení mezery nad nadpisem pro mobilní zařízení */
         margin-bottom: 25px; /* Zvýšení mezery pod nadpisem pro mobilní zařízení */
     }
+    
+     .logo {
+        margin-top: 40px; /* Přidá mezeru kolem loga */
+        margin-bottom: 25px; /* Přidá mezeru kolem loga */
+    }
 }
