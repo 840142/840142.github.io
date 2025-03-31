@@ -15,7 +15,9 @@ body {
 }
 
 .logo {
-    margin-top: 40px; /* Přidá mezeru kolem loga */
+    width: 100%;
+    height: auto;
+    margin-top: 60px; /* Přidá mezeru kolem loga */
     margin-bottom: 40px; /* Přidá mezeru kolem loga */
 }
 
