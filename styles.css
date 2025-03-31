@@ -14,6 +14,11 @@ body {
     padding: 0;
 }
 
+.logo {
+    height: auto;
+    margin: 20px; /* Přidá mezeru kolem loga */
+}
+
 /* Alternativně, pokud chcete přidat mezery mezi celými sekcemi */
 section.article {
     margin-bottom: 60px; /* Větší mezera mezi koncem jednoho článku a začátkem dalšího */
